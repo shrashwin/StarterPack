@@ -30,8 +30,6 @@ class DateHelper: NSObject {
         
     }
     
-    
-    
 }
 
 extension DateHelper {
