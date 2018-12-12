@@ -37,6 +37,10 @@ extension DateHelper {
     func getTodayDate(withFormat: String = "yyyy-MM-dd") -> String {
         return DateHelper.shared.getStringDate(Date(), havingFormat: withFormat)
     }
+    
+    func getTodayDate() -> Date {
+        return Date()
+    }
 }
 
 // MARK: - String date to Date object formatters
