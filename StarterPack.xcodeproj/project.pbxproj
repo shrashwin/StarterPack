@@ -12,6 +12,7 @@
 		5D61341021C1325F0055F131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61340E21C1325F0055F131 /* Main.storyboard */; };
 		5D61341221C132600055F131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D61341121C132600055F131 /* Assets.xcassets */; };
 		5D61341521C132600055F131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D61341321C132600055F131 /* LaunchScreen.storyboard */; };
+		5D61341E21C132AE0055F131 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61341D21C132AE0055F131 /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D61341121C132600055F131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D61341421C132600055F131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D61341621C132600055F131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D61341D21C132AE0055F131 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5D61340921C1325F0055F131 /* StarterPack */ = {
 			isa = PBXGroup;
 			children = (
+				5D61341C21C1329E0055F131 /* Helpers */,
 				5D61340A21C1325F0055F131 /* AppDelegate.swift */,
 				5D61340C21C1325F0055F131 /* ViewController.swift */,
 				5D61340E21C1325F0055F131 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5D61341621C132600055F131 /* Info.plist */,
 			);
 			path = StarterPack;
+			sourceTree = "<group>";
+		};
+		5D61341C21C1329E0055F131 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D61341D21C132AE0055F131 /* DateHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D61341E21C132AE0055F131 /* DateHelper.swift in Sources */,
 				5D61340D21C1325F0055F131 /* ViewController.swift in Sources */,
 				5D61340B21C1325F0055F131 /* AppDelegate.swift in Sources */,
 			);
